@@ -1,0 +1,94 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Container geral */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.exercise {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.exercise h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.exercise p {
+    font-size: 16px;
+    color: #666;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px; /* Canto arredondado nos botões */
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da lista de itens (Exercício 2) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+/* Exercício 4: Mudar a cor ao passar o mouse */
+.hover-text:hover {
+    color: palevioletred;
+}
+
+/* Exercício 6: Luzes que acendem e apagam */
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background-color: grey;
+    transition: background-color 0.3s ease;
+}
+
+/* Quando a luz está acesa */
+.light.on {
+    background-color: yellow;
+}

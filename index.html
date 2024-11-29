@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Avaliativo - Programação Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Trabalho Avaliativo - Programação Web</h1>
+        <p>Usando HTML, CSS e JavaScript</p>
+    </header>
+
+    <div class="container">
+        <!-- Exercício 01 -->
+        <section class="exercise" id="exercise1">
+            <h2>Exercício 01: Alterar Cor de Fundo</h2>
+            <p>Funcionalidade: Ao clicar no botão, a cor de fundo da página mudará para uma cor aleatória.</p>
+            <button onclick="changeBackgroundColor()">Alterar Cor de Fundo</button>
+        </section>
+
+        <!-- Exercício 02 -->
+        <section class="exercise" id="exercise2">
+            <h2>Exercício 02: Lista Interativa com Itens</h2>
+            <p>Funcionalidade: O usuário pode adicionar itens à lista clicando em um botão.</p>
+            <input type="text" id="itemInput" placeholder="Adicionar item">
+            <button onclick="addItem()">Adicionar Item</button>
+            <ul id="itemList"></ul>
+        </section>
+
+        <!-- Exercício 03 -->
+        <section class="exercise" id="exercise3">
+            <h2>Exercício 03: Mostrar ou Ocultar Texto</h2>
+            <p>Funcionalidade: Ao clicar no botão, o texto será exibido ou ocultado.</p>
+            <button onclick="toggleText()">Mostrar</button>
+            <p id="textToToggle" style="display: none;">"Palavras na minha não tão humilde opinião são nossa inesgotável fonte de magia."</p>
+        </section>
+
+        <!-- Exercício 04 -->
+        <section class="exercise" id="exercise4">
+            <h2>Exercício 04: Mudar a Cor de um Texto ao Passar o Mouse</h2>
+            <p>Funcionalidade: Ao passar o mouse sobre o parágrafo, a cor do texto mudará.</p>
+            <p class="hover-text">"Faça ou não faça. A tentativa não existe."</p>
+        </section>
+
+        <!-- Exercício 05 -->
+        <section class="exercise" id="exercise5">
+            <h2>Exercício 05: Contador de Cliques</h2>
+            <p>Funcionalidade: Ao clicar no botão, o contador será incrementado.</p>
+            <button onclick="incrementCounter()">Pode clicar!</button>
+            <p>Contagem de cliques: <span id="clickCounter">0</span></p>
+        </section>
+
+        <!-- Exercício 06 -->
+        <section class="exercise" id="exercise6">
+            <h2>Exercício 06: Quem apagou a luz?</h2>
+            <p>Funcionalidade: O botão alterna entre ligar e desligar a luz.</p>
+            <button onclick="toggleLight()">Ligar/Desligar Luz</button>
+            <div id="light" class="light"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
